@@ -1,0 +1,410 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Index */
+
+.top {
+    height: 800px;
+    background: #F9DB79 url("../img/ice1.png") center no-repeat;
+}
+
+.top-nav {
+    padding-top: 15px;
+}
+
+.top-nav li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 40px;
+}
+
+.top-nav a {
+    font-size: 18px;
+    color: #000000;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.top-nav a:hover {
+    color: rgba(0, 0, 0, 0.51);
+}
+
+.top-text {
+    padding-top: 330px;
+    font-family: "Arial Black", sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 115px;
+    text-align: center;
+}
+
+.top-text span {
+    display: block;
+    font-size: 38px;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid white;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    background: #000000;
+    border: 2px solid black;
+}
+
+.two-col {
+    height: 650px;
+    clear: both;
+    overflow: hidden;
+}
+
+.col {
+    float: left;
+    width: 50%;
+}
+
+.col-img {
+    height: 100%;
+}
+
+.col-img-one {
+    background: url("../img/bg1.jpg") center no-repeat;
+}
+
+.col-img-two {
+    background: url("../img/bg3.jpg") center no-repeat;
+}
+
+.col-img-three {
+    background: url("../img/bg2.jpg") right no-repeat;
+}
+
+.button-color {
+    color: #000;
+    border: 2px solid #000;
+	margin: 40px auto;
+}
+
+.button-color:hover {
+    color: #ffffff;
+}
+
+.col-text {
+    text-align: center;
+    padding: 200px 30px 0 30px;
+}
+
+.col-text h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.col-text span {
+    font-family: "Marck Script", cursive;
+    font-size: 24px;
+}
+
+.col-text p {
+    font-size: 16px;
+
+}
+
+.fixed {
+    height: 780px;
+}
+
+.fixed-one {
+    background: #B5E8D5 url("../img/fixed-ice1.png") center no-repeat;
+    background-attachment: fixed;
+}
+
+.fixed-two {
+    background: #FFBFB3 url("../img/fixed-ice2.png") center no-repeat;
+    background-attachment: fixed;
+}
+
+.fixed-three {
+    background: #B5E8D5 url("../img/fixed-ice3.png") bottom no-repeat;
+    background-attachment: fixed;
+}
+
+.center-text {
+    padding-top: 280px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 115px;
+    text-align: center;
+    font-family: "Arial Black", sans-serif;
+}
+
+.center-text span {
+    display: block;
+    font-size: 38px;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.button-width {
+    width: 150px;
+}
+
+footer {
+    padding: 20px 0;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.heart {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    background: url("../img/heart-icon.png") 0 0 no-repeat;
+    background-size: 25px 25px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.heart-active {
+    opacity: 0.3;
+}
+
+/* Other */
+
+.top-small {
+    height: 450px;
+}
+
+.top-small .top-text {
+    padding: 100px 0 0 0;
+}
+
+.top-event {
+    background: #FFBFB3;
+}
+
+.top-catalog {
+    background: #B5E8D5;
+}
+
+.top-about {
+    background: #C3A9D4;
+}
+
+.top-contacts {
+    background: #D47960;
+}
+
+.top-registration {
+    background: #5776D4;
+}
+
+.top-item {
+    background: rgba(139, 69, 19, 0.8);
+}
+
+.top-fotorama {
+    background: #839C3C;
+}
+
+.content {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.content span {
+    font-family: "Marck Script", cursive;
+    font-size: 24px;
+}
+
+.content p {
+    max-width: 500px;
+    margin: 25px auto 0 auto;
+}
+
+.fixed-event {
+    height: 650px;
+    background: url("../img/bg4.jpg") bottom center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fixed-about {
+    height: 650px;
+    background: url("../img/bg3.jpg") bottom center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.catalog-list {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.catalog-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.catalog-item h3 {
+    font-size: 20px;
+}
+
+.catalog-item h3::after {
+    content: "";
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    height: 2px;
+    margin-top: 20px;
+    background: #000000;
+}
+
+.fixed-registration {
+    height: 650px;
+    background: url("../img/bg7.jpg") center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.form {
+    width: 800px;
+    margin: 20px auto 0 auto;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+.form-btn {
+    background: #5776D4;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.map {
+    height: 800px;
+}
+
+.item-img {
+    width: 50%;
+    float: left;
+    text-align: center;
+    background: black;
+}
+
+.two-col-height {
+    height: auto;
+}
+
+.top-item-padding .top-text {
+    line-height: 105px;
+    padding: 20px 0 0 0;
+}
+
+.popup-btn {
+    margin: 50px auto 0 auto;
+    text-transform: uppercase;
+    border-color: #000000;
+    color: black;
+    cursor: pointer;
+}
+
+.popup-btn:hover {
+    color: #ffffff;
+}
+
+.popup {
+    background: #ffffff;
+    font-size: 15px;
+    color: #000;
+    padding: 20px;
+    width: 600px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid black;
+    z-index: 5;
+    display: none;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0.5;
+    z-index: 4;
+    display: none;
+}
+
+@keyframes anim1{
+	0% {margin-left: 15%;}
+	50% {margin-left: 35%;}	
+	100% {margin-left: 15%;}
+}
+
+.title-text {
+	text-align: left;
+}
+
+#event-text {
+	animation: anim1 10s 20000;
+}
